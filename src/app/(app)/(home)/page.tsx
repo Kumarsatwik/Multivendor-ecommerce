@@ -4,7 +4,5 @@ import { getPayload } from "payload";
 import collections from "@payload-config"; // Adjust this import based on your actual config
 
 export default async function Home() {
-  const payload = await getPayload({ config: configPromise });
-
   return <div>{JSON.stringify("test", null, 2)}</div>;
 }
